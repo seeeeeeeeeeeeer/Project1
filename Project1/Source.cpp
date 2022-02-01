@@ -23,7 +23,20 @@ class quadrate:public point
 public:
 	quadrate() { c = 0; }
 	quadrate(int c) { this->c = c; }
+	
 	void print() { cout << c; }
+};
+
+class marks
+{
+	int mark;
+public:
+	marks() { mark = 0; }
+	void print() { cout << "mark" << mark; }
+};
+class test
+{
+
 };
 
 int main()
